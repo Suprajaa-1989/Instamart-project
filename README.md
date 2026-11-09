@@ -53,42 +53,21 @@ Per-column dtypes and missing values (count and %):
 **customers**
 
 | column | dtype | missing | missing_pct |
-|---|---|---|---|
-| customer_id | str | 0 | 0.0 |
-| city | str | 0 | 0.0 |
-| signup_date | str | 0 | 0.0 |
+
 | age | float64 | 65 | 5.42 |
 | gender | str | 222 | 18.5 |
-
-**products**
-
-| column | dtype | missing | missing_pct |
-|---|---|---|---|
-| product_id | str | 0 | 0.0 |
-| product_name | str | 0 | 0.0 |
-| category | str | 0 | 0.0 |
-| price_inr | int64 | 0 | 0.0 |
 
 **orders**
 
 | column | dtype | missing | missing_pct |
-|---|---|---|---|
-| order_id | str | 0 | 0.0 |
-| customer_id | str | 0 | 0.0 |
-| product_id | str | 0 | 0.0 |
-| quantity | int64 | 0 | 0.0 |
-| order_ts | str | 0 | 0.0 |
-| status | str | 0 | 0.0 |
-| discount_pct | int64 | 0 | 0.0 |
+
 | order_amount | str | 110 | 0.43 |
 | delivery_minutes | float64 | 8078 | 31.58 |
 
 **tickets** (read with `keep_default_na=False`; blank means empty string)
 
 | column | dtype | missing | missing_pct |
-|---|---|---|---|
-| ticket_id | str | 0 | 0.0 |
-| customer_id | str | 0 | 0.0 |
+#
 | order_id | str | 164 | 100.0 |
 | text | str | 4 | 2.44 |
 | true_category | str | 0 | 0.0 |
