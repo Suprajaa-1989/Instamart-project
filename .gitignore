@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+outputs/live_tickets.jsonl
+outputs/live_orders.jsonl
+data/customer_phones.csv
+outputs/live_refunds.jsonl
+outputs/live_claims.jsonl

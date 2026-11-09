@@ -1,0 +1,2 @@
+For submission: copy generate_data.py and mock_llm.py verbatim from the brief into this folder (repo root). run_all.py then uses them instead of standins/
+They must stay unmodified, so they are intentionally not included.
