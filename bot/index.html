@@ -1,0 +1,130 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Instamart Support</title><style>
+:root{--bg:#eef0f4;--card:#fff;--tx:#1b1f24;--mut:#6b7280;--pri:#fc8019;--pri2:#e66d0a;--bot:#f1f3f6;--bd:#e3e6ec;--ok:#16a34a;--bad:#dc2626;--warn:#d97706;--sh:0 10px 30px rgba(20,25,40,.12)}
+@media(prefers-color-scheme:dark){:root{--bg:#0e1013;--card:#171a20;--tx:#eceff3;--mut:#9aa3b2;--bot:#232730;--bd:#2c313b;--sh:0 10px 30px rgba(0,0,0,.5)}}
+*{box-sizing:border-box}[hidden]{display:none!important}body{margin:0;font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--tx);display:flex;justify-content:center}
+#app{width:100%;max-width:720px;height:100vh;display:flex;flex-direction:column;background:var(--card);box-shadow:var(--sh)}
+@media(min-width:760px){#app{height:94vh;margin-top:3vh;border-radius:18px;overflow:hidden}}
+header{display:flex;align-items:center;gap:12px;padding:12px 16px;background:linear-gradient(135deg,var(--pri),var(--pri2));color:#fff}
+.logo{width:40px;height:40px;border-radius:12px;background:rgba(255,255,255,.2);display:grid;place-items:center}
+header h1{margin:0;font-size:17px}header small{opacity:.9;display:flex;align-items:center;gap:6px}
+.dot{width:8px;height:8px;border-radius:50%;background:#4ade80;display:inline-block}
+#chip{margin-left:auto;display:none;align-items:center;gap:8px;background:rgba(255,255,255,.18);padding:5px 10px 5px 5px;border-radius:20px;font-size:13px}
+#chip .av{width:26px;height:26px;border-radius:50%;background:#fff;color:var(--pri2);display:grid;place-items:center;font-weight:700;font-size:12px}
+#chip button{background:none;border:0;color:#fff;cursor:pointer;font-size:12px;text-decoration:underline;padding:0 0 0 4px}
+#log{flex:1;overflow:auto;padding:16px;display:flex;flex-direction:column;gap:12px;scroll-behavior:smooth}
+.row{display:flex;gap:8px;align-items:flex-end;max-width:92%}.row.me{align-self:flex-end;flex-direction:row-reverse}
+.av{flex:none;width:30px;height:30px;border-radius:50%;background:var(--pri);color:#fff;display:grid;place-items:center;font-size:15px}
+.bub{padding:10px 14px;border-radius:16px;white-space:pre-wrap;word-break:break-word}
+.bot .bub{background:var(--bot);border-bottom-left-radius:4px}.me .bub{background:var(--pri);color:#fff;border-bottom-right-radius:4px}
+.time{font-size:11px;color:var(--mut);margin:2px 4px 0}
+.col{display:flex;flex-direction:column;gap:8px}
+.card{border:1px solid var(--bd);border-radius:14px;background:var(--card);overflow:hidden;min-width:260px;box-shadow:0 2px 8px rgba(20,25,40,.06)}
+.card h3{margin:0;padding:10px 14px;font-size:14px;background:var(--bot);display:flex;align-items:center;gap:8px}
+.kv{display:flex;justify-content:space-between;gap:16px;padding:7px 14px;border-top:1px solid var(--bd);font-size:14px}.kv span:first-child{color:var(--mut)}
+.kv b.big{font-size:17px;color:var(--pri2)}.note{padding:9px 14px;border-top:1px solid var(--bd);font-size:13px;color:var(--mut)}
+.o{padding:9px 14px;border-top:1px solid var(--bd);display:flex;justify-content:space-between;gap:12px;align-items:center}.o small{color:var(--mut);display:block}
+.o.click{cursor:pointer}.o.click:hover{background:var(--bot)}.o>div:first-child{min-width:0;overflow-wrap:anywhere}
+.steps{padding:8px 14px;border-top:1px solid var(--bd)}.step{display:flex;gap:8px;padding:3px 0;font-size:14px}.step.todo{color:var(--mut)}.step.current{font-weight:600}
+.badge{font-size:11px;font-weight:600;padding:2px 8px;border-radius:10px;background:var(--bot);white-space:nowrap}
+.badge.ok{background:rgba(22,163,74,.15);color:var(--ok)}.badge.bad{background:rgba(220,38,38,.15);color:var(--bad)}.badge.warn{background:rgba(217,119,6,.18);color:var(--warn)}
+.card.ok h3{color:var(--ok)}.card.bad h3{color:var(--bad)}.card.warn h3{color:var(--warn)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:2px 0 0 38px}
+.chips button{padding:8px 13px;border:1.5px solid var(--pri);border-radius:20px;background:transparent;color:var(--tx);font:14px system-ui;cursor:pointer;transition:.15s}
+.chips button:hover{background:var(--pri);color:#fff;transform:translateY(-1px)}
+.typing{display:flex;gap:4px;padding:12px 14px}.typing i{width:7px;height:7px;border-radius:50%;background:var(--mut);animation:b 1s infinite}.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes b{0%,60%,100%{opacity:.3;transform:none}30%{opacity:1;transform:translateY(-4px)}}
+#cf{display:flex;gap:8px;padding:12px;border-top:1px solid var(--bd);background:var(--card)}
+#cf input{flex:1;padding:12px 14px;border:1px solid var(--bd);border-radius:24px;background:var(--bg);color:var(--tx);font:inherit;outline:none}
+#cf input:focus{border-color:var(--pri)}
+#cf button{width:44px;height:44px;border:0;border-radius:50%;background:var(--pri);color:#fff;cursor:pointer;font-size:18px}
+#login{margin:auto;padding:28px;text-align:center;width:100%;max-width:380px}
+#login .big{font-size:46px}#login h2{margin:6px 0 2px}#login p{color:var(--mut);margin:4px 0 18px}
+.ph{display:flex;border:1.5px solid var(--bd);border-radius:12px;overflow:hidden;background:var(--bg)}.ph span{padding:12px;background:var(--bot);color:var(--mut)}
+.ph input{flex:1;border:0;padding:12px;font:inherit;background:transparent;color:var(--tx);outline:none;min-width:0}
+#login .go{margin-top:12px;width:100%;padding:13px;border:0;border-radius:12px;background:var(--pri);color:#fff;font:600 15px system-ui;cursor:pointer}
+#err{color:var(--bad);min-height:20px;margin-top:8px;font-size:14px}
+.demo{margin-top:16px;font-size:12px;color:var(--mut)}.demo button{margin:3px;padding:4px 9px;border:1px dashed var(--bd);border-radius:12px;background:none;color:var(--mut);cursor:pointer}
+footer{padding:6px;text-align:center;font-size:11px;color:var(--mut);border-top:1px solid var(--bd)}
+</style></head><body><div id="app">
+<header><div class="logo"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6 5 3H2"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/></svg></div>
+<div><h1>Instamart Support</h1><small><span class="dot"></span> Online - replies instantly</small></div>
+<div id="chip"><span class="av" id="av"></span><span id="who"></span><button onclick="location.reload()">Sign out</button></div></header>
+<div id="login"><div class="big">&#128075;</div><h2>Welcome back</h2><p>Sign in with your registered mobile number to see your orders.</p>
+<form id="lf"><div class="ph"><span>+91</span><input id="ph" placeholder="10-digit mobile number" inputmode="numeric" autocomplete="off" autofocus></div>
+<button class="go">Continue &rarr;</button></form><div id="err"></div><div class="demo" id="demo"></div></div>
+<div id="log" hidden></div>
+<form id="cf" hidden><input id="msg" placeholder="Type your problem or question..." autocomplete="off"><button title="Send">&#10148;</button></form>
+<footer>Demo environment - synthetic data - amounts in INR</footer>
+</div><script>
+let token="";const $=i=>document.getElementById(i);
+function h(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e}
+const inr=n=>"INR "+Number(n).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});
+const now=()=>new Date().toLocaleTimeString([], {hour:"2-digit",minute:"2-digit"});
+const scroll=()=>{$("log").scrollTop=$("log").scrollHeight};
+function stepsEl(list){const w=h("div","steps");list.forEach(s=>{const e=h("div","step "+s.state);e.appendChild(h("span","",s.state==="done"?"\u2705":s.state==="current"?"\ud83d\udd04":"\u26aa"));e.appendChild(h("span","",s.label));w.appendChild(e)});return w}
+function kv(k,v,big){const r=h("div","kv");r.appendChild(h("span","",k));const b=h("b",big?"big":"",v);r.appendChild(b);return r}
+function badge(t,c){return h("span","badge "+(c||""),t)}
+function statusCls(s){return s==="completed"?"ok":s==="cancelled"?"bad":"warn"}
+function card(c){
+ const d=h("div","card "+(c.state||""));
+ if(c.type==="orders"){d.appendChild(h("h3","","\ud83d\udecd\ufe0f "+(c.title||"Your orders")));
+  c.items.forEach(o=>{const r=h("div","o click");r.title="Tap for details";r.onclick=()=>send("ord:"+o.order_id,o.product+" \u00d7"+o.qty+" \u00b7 "+o.order_id);const l=h("div");l.appendChild(h("b","",o.product+" \u00d7"+o.qty));
+   l.appendChild(h("small","",(o.category?o.category+" \u00b7 ":"")+o.order_id+" \u00b7 "+o.date+(o.status==="completed"&&o.minutes!=null?" \u00b7 delivered in "+Math.round(o.minutes)+" min":"")));
+   r.appendChild(l);const rt=h("div");rt.style.textAlign="right";rt.appendChild(h("b","",inr(o.amount)));rt.appendChild(h("div"));rt.appendChild(badge(o.status,statusCls(o.status)));if(o.refund)rt.appendChild(h("small","","\ud83d\udcb0 Refund: "+o.refund));r.appendChild(rt);d.appendChild(r)});d.appendChild(h("div","note","\ud83d\udc46 Tap an order to see the item, refund/return, reorder and its tickets."))}
+ else if(c.type==="form"){d.appendChild(h("h3","","\ud83d\udcdd Your claim so far"));c.rows.forEach(r=>d.appendChild(kv(r[0],r[1])))}
+ else if(c.type==="decision"){const st={accepted:"ok",rejected:"bad",escalated:"warn"}[c.outcome];d.className="card "+st;
+  d.appendChild(h("h3","",({accepted:"\u2705 Claim accepted",rejected:"\u26d4 Claim not accepted",escalated:"\ud83e\uddd1\u200d\ud83d\udcbc Needs a human lead"})[c.outcome]+" \u00b7 "+c.claim_id));
+  d.appendChild(kv("Item",c.item));d.appendChild(kv("Reason",c.reason));if(c.outcome!=="rejected")d.appendChild(kv("Refund amount",inr(c.refund),true));
+  c.rules.forEach(x=>d.appendChild(kv((x.ok?"\u2705 ":"\u274c ")+x.rule,x.why)));
+  d.appendChild(h("div","note","\ud83d\udcdc Policy ("+c.source+"): "+c.policy));const v=h("div","note",c.explanation);v.style.fontWeight="600";d.appendChild(v)} else if(c.type==="policy"){d.appendChild(h("h3","","\ud83d\udcdc "+c.title));const t=h("div","note",c.text);t.style.whiteSpace="pre-wrap";d.appendChild(t)} else if(c.type==="detail"){d.appendChild(h("h3","","\ud83e\uddfe Order details"));d.appendChild(kv("Order",c.order_id));
+  d.appendChild(kv("Item",c.product+" \u00d7"+c.qty));if(c.category)d.appendChild(kv("Category",c.category));d.appendChild(kv("Unit price",inr(c.unit)));
+  if(c.discount>0)d.appendChild(kv("Discount",c.discount+"%"));d.appendChild(kv("Amount paid",inr(c.amount),true));
+  const r=h("div","kv");r.appendChild(h("span","","Status"));r.appendChild(badge(c.status,statusCls(c.status)));d.appendChild(r);
+  d.appendChild(kv("Ordered on",c.date));if(c.minutes!=null)d.appendChild(kv("Delivery time",Math.round(c.minutes)+" min"))}
+ else if(c.type==="summary"){d.appendChild(h("h3","","\ud83d\udcca Your spending"));d.appendChild(kv("Completed orders",String(c.completed)));
+  d.appendChild(kv("Cancelled orders",String(c.cancelled)));d.appendChild(kv("Total spent",inr(c.total),true));d.appendChild(kv("Average order",inr(c.average)));
+  d.appendChild(kv("Most ordered",c.favourite));d.appendChild(kv("Last order",c.last))}
+ else if(c.type==="ticket"){d.appendChild(h("h3","","\ud83c\udfab Ticket "+c.ticket_id));
+  d.appendChild(kv("Category",c.icon+" "+c.category));if(c.item)d.appendChild(kv("Item",c.item));d.appendChild(kv("Routed to",c.route));
+  const r=h("div","kv");r.appendChild(h("span","","Priority"));r.appendChild(badge(c.priority,c.priority==="HIGH"?"warn":""));d.appendChild(r);
+  if(c.status){d.appendChild(kv("Status",c.status));d.appendChild(kv("First response","within "+c.sla));d.appendChild(kv("Created",c.created));if(c.steps)d.appendChild(stepsEl(c.steps))}}
+ else if(c.type==="timeline"){d.appendChild(h("h3","",c.title));c.rows.forEach(r=>d.appendChild(kv(r[0],r[1],r[2])));if(c.steps)d.appendChild(stepsEl(c.steps));if(c.note)d.appendChild(h("div","note",c.note))}
+ else if(c.type==="tickets"){d.appendChild(h("h3","","\ud83c\udfab "+c.title));
+  c.items.forEach(t=>{const r=h("div","o");const l=h("div");l.appendChild(h("b","",t.icon+" "+t.ticket_id+" \u00b7 "+t.category));
+   l.appendChild(h("small","",(t.order_id?t.order_id+" \u00b7 ":"")+(t.when?t.when+" \u00b7 ":"")+"routed to "+t.route));l.appendChild(h("small","","Status: "+t.status+(t.sla?" \u00b7 first response within "+t.sla:"")));l.appendChild(h("small","",t.text));
+   r.appendChild(l);r.appendChild(badge(t.priority||"-",t.priority==="HIGH"?"warn":""));d.appendChild(r)});
+  if(c.total>c.items.length)d.appendChild(h("div","note","Showing the latest "+c.items.length+" of "+c.total+" tickets."))}
+ else if(c.type==="claims"){d.appendChild(h("h3","","\ud83d\udcb8 Your refund claims"));
+  c.items.forEach(t=>{const r=h("div","o");const l=h("div");l.appendChild(h("b","",t.claim_id+" \u00b7 "+t.item));l.appendChild(h("small","",t.when+(t.refund>0?" \u00b7 "+inr(t.refund):"")));
+   r.appendChild(l);r.appendChild(badge(t.status||t.outcome,{accepted:"ok",rejected:"bad",escalated:"warn"}[t.outcome]));d.appendChild(r)})}
+ else if(c.type==="receipt"){d.appendChild(h("h3","",c.icon+" "+c.title));d.appendChild(kv("Order",c.order_id));
+  if(c.amount>0)d.appendChild(kv("Amount",inr(c.amount),true));d.appendChild(h("div","note",c.note))}
+ else if(c.type==="reorder"){d.appendChild(h("h3","",c.state==="placed"?"\u2705 Order placed":"\ud83d\udd01 Reorder summary"));
+  d.appendChild(kv("Item",c.product+" \u00d7"+c.qty));d.appendChild(kv("Unit price",inr(c.unit)));d.appendChild(kv("Total",inr(c.total),true));
+  if(c.order_id)d.appendChild(kv("New order",c.order_id));d.appendChild(h("div","note","Demo: no payment is taken."))}
+ return d}
+function addBot(text,cards,buttons,meta){document.querySelectorAll(".chips").forEach(e=>e.remove());
+ const row=h("div","row bot");row.appendChild(h("div","av","\ud83e\udd16"));const col=h("div","col");
+ if(text){col.appendChild(h("div","bub",text))}
+ (cards||[]).forEach(c=>col.appendChild(card(c)));if(meta)col.appendChild(h("div","time","\ud83e\udde0 Understood as: "+meta.intent+" \u00b7 "+meta.confidence+"% confident"));
+ col.appendChild(h("div","time",now()));row.appendChild(col);$("log").appendChild(row);
+ if(buttons&&buttons.length){const w=h("div","chips");buttons.forEach(b=>{const x=h("button","",b.label);x.onclick=()=>send(b.send,b.label);w.appendChild(x)});$("log").appendChild(w)}
+ scroll()}
+function addMe(t){document.querySelectorAll(".chips").forEach(e=>e.remove());const row=h("div","row me");const col=h("div","col");
+ col.appendChild(h("div","bub",t));col.appendChild(h("div","time",now()));row.appendChild(col);$("log").appendChild(row);scroll()}
+function typing(){const row=h("div","row bot");row.id="typing";row.appendChild(h("div","av","\ud83e\udd16"));
+ const b=h("div","bub typing");b.innerHTML="<i></i><i></i><i></i>";row.appendChild(b);$("log").appendChild(row);scroll()}
+async function post(u,b){const r=await fetch(u,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(b)});return r.json()}
+async function send(text,label){addMe(label||text);typing();
+ const [r]=await Promise.all([post("/api/chat",{token,message:text}),new Promise(z=>setTimeout(z,450))]);
+ $("typing")&&$("typing").remove();addBot(r.reply,r.cards,r.buttons,r.meta)}
+$("lf").onsubmit=async e=>{e.preventDefault();$("err").textContent="";const r=await post("/api/login",{phone:$("ph").value});
+ if(!r.ok){$("err").textContent="This number is not registered. Please check and try again.";return}
+ token=r.token;$("login").hidden=true;$("log").hidden=false;$("cf").hidden=false;
+ $("chip").style.display="flex";$("av").textContent=r.customer_id.slice(-2);$("who").textContent=r.customer_id+" \u00b7 "+r.city+(r.segment?" \u00b7 "+r.segment:"");
+ addBot(r.reply,r.cards,r.buttons);$("msg").focus()};
+$("cf").onsubmit=e=>{e.preventDefault();const t=$("msg").value.trim();if(!t)return;$("msg").value="";send(t)};
+fetch("/api/demo").then(r=>r.json()).then(d=>{if(!d.phones.length)return;$("demo").appendChild(document.createTextNode("Demo numbers: "));
+ d.phones.forEach(p=>{const b=h("button","",p);b.type="button";b.onclick=()=>{$("ph").value=p};$("demo").appendChild(b)})});
+</script></body></html>

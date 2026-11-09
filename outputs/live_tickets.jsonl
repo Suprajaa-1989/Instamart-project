@@ -1,0 +1,1 @@
+{"ticket_id": "LT-0001", "ts": "2026-11-09T22:50:45", "customer_id": "C0001", "order_id": "ORD-100024", "item": "Item23 x2", "kind": "claim_escalation", "text": "Refund of INR 1,107.00 for Item23 x2 needs approval", "status": "human_requested", "category": "", "route": "human_review", "priority": "NORMAL"}

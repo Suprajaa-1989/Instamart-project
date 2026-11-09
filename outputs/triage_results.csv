@@ -1,0 +1,165 @@
+ticket_id,customer_id,status,segment_name,category,priority,route,tokens_used
+T0001,C0585,skipped_empty,Active Regulars,,NORMAL,human_review,0
+T0002,C0102,skipped_empty,Active Regulars,,NORMAL,human_review,0
+T0003,C1154,skipped_empty,Premium High-Spenders,,NORMAL,human_review,0
+T0004,C0737,skipped_empty,Premium High-Spenders,,NORMAL,human_review,0
+T0005,C1084,flagged_long,Premium High-Spenders,,NORMAL,human_review,0
+T0006,C0309,flagged_long,Active Regulars,,NORMAL,human_review,0
+T0007,C1006,flagged_long,Active Regulars,,NORMAL,human_review,0
+T0008,C0891,flagged_long,Premium High-Spenders,,NORMAL,human_review,0
+T0009,C1064,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0010,C0824,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0011,C1044,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0012,C0513,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0013,C0570,classified_json,Premium High-Spenders,billing,HIGH,premium_desk,183
+T0014,C0598,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0015,C0963,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0016,C0552,classified_json,Premium High-Spenders,delivery,HIGH,premium_desk,179
+T0017,C0636,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0018,C0813,classified_json,Premium High-Spenders,billing,HIGH,premium_desk,183
+T0019,C0286,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0020,C0211,classified_json,Premium High-Spenders,billing,HIGH,premium_desk,183
+T0021,C0668,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0022,C0815,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0023,C0910,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0024,C0964,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0025,C0271,classified_json,Premium High-Spenders,delivery,HIGH,premium_desk,179
+T0026,C0681,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0027,C1128,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0028,C0664,classified_json,Premium High-Spenders,delivery,HIGH,premium_desk,179
+T0029,C0562,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0030,C0892,classified_json,Premium High-Spenders,delivery,HIGH,premium_desk,179
+T0031,C0415,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0032,C0054,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0033,C0133,classified_json,Premium High-Spenders,delivery,HIGH,premium_desk,179
+T0034,C0761,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0035,C0820,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0036,C0111,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0037,C1175,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0038,C0853,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0039,C0789,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0040,C0283,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0041,C0442,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0042,C0494,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0043,C0633,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0044,C0502,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0045,C0046,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0046,C0812,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0047,C0524,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0048,C0334,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0049,C0842,classified_json,Premium High-Spenders,billing,HIGH,premium_desk,183
+T0050,C1081,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0051,C0920,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0052,C0242,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0053,C1051,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0054,C0326,classified_json,Lapsing / Dormant,technical,NORMAL,support_queue,175
+T0055,C0194,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0056,C0576,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0057,C0445,classified_json,Premium High-Spenders,delivery,HIGH,premium_desk,179
+T0058,C0031,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0059,C0780,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0060,C1054,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0061,C0178,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0062,C0797,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0063,C0632,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0064,C0571,classified_json,Premium High-Spenders,billing,HIGH,premium_desk,183
+T0065,C0084,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0066,C0679,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0067,C0029,classified_json,Lapsing / Dormant,fraud,HIGH,security_team,178
+T0068,C0435,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0069,C0172,classified_json,Lapsing / Dormant,delivery,NORMAL,support_queue,179
+T0070,C1041,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0071,C0716,classified_json,Premium High-Spenders,billing,HIGH,premium_desk,183
+T0072,C1149,classified_json,,billing,NORMAL,support_queue,183
+T0073,C0765,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0074,C0917,classified_json,Lapsing / Dormant,billing,NORMAL,support_queue,183
+T0075,C0388,classified_json,Premium High-Spenders,delivery,HIGH,premium_desk,179
+T0076,C0340,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0077,C0401,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0078,C0915,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0079,C1056,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0080,C0959,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0081,C0870,classified_json,Premium High-Spenders,billing,HIGH,premium_desk,183
+T0082,C1090,classified_json,Lapsing / Dormant,technical,NORMAL,support_queue,175
+T0083,C0190,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0084,C0557,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0085,C0172,classified_json,Lapsing / Dormant,fraud,HIGH,security_team,178
+T0086,C0385,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0087,C0526,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0088,C0761,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0089,C0126,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0090,C0453,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0091,C1031,classified_json,Lapsing / Dormant,billing,NORMAL,support_queue,183
+T0092,C0496,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0093,C0530,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0094,C0079,classified_json,Lapsing / Dormant,technical,NORMAL,support_queue,175
+T0095,C0879,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0096,C0516,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0097,C0144,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0098,C0969,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0099,C0293,classified_json,Lapsing / Dormant,billing,NORMAL,support_queue,183
+T0100,C0181,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0101,C0407,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0102,C0970,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0103,C0061,classified_json,Lapsing / Dormant,fraud,HIGH,security_team,178
+T0104,C0335,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0105,C1134,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0106,C0656,classified_json,Premium High-Spenders,billing,HIGH,premium_desk,183
+T0107,C0164,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0108,C1198,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0109,C0325,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0110,C0732,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0111,C0009,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0112,C0608,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0113,C0950,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0114,C0502,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0115,C1158,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0116,C0963,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0117,C0444,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0118,C0610,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0119,C0657,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0120,C0144,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0121,C0811,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0122,C0232,classified_json,Lapsing / Dormant,delivery,NORMAL,support_queue,179
+T0123,C0165,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0124,C0362,classified_json,Lapsing / Dormant,fraud,HIGH,security_team,178
+T0125,C1139,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0126,C0560,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0127,C0669,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0128,C0298,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0129,C0101,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0130,C0083,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0131,C0455,classified_json,Premium High-Spenders,delivery,HIGH,premium_desk,179
+T0132,C0777,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0133,C1113,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0134,C1125,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0135,C0278,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0136,C1192,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0137,C0360,classified_json,Lapsing / Dormant,delivery,NORMAL,support_queue,179
+T0138,C0423,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0139,C0153,classified_json,Premium High-Spenders,delivery,HIGH,premium_desk,179
+T0140,C0715,classified_json,Active Regulars,fraud,HIGH,security_team,178
+T0141,C0352,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0142,C0875,classified_json,Lapsing / Dormant,technical,NORMAL,support_queue,175
+T0143,C0708,classified_json,Active Regulars,billing,NORMAL,support_queue,183
+T0144,C0936,classified_json,Premium High-Spenders,delivery,HIGH,premium_desk,179
+T0145,C0428,classified_json,Premium High-Spenders,billing,HIGH,premium_desk,183
+T0146,C1093,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0147,C0578,classified_json,Premium High-Spenders,delivery,HIGH,premium_desk,179
+T0148,C1087,classified_json,,delivery,NORMAL,support_queue,179
+T0149,C0616,classified_json,Premium High-Spenders,delivery,HIGH,premium_desk,179
+T0150,C0519,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0151,C0491,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0152,C0244,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0153,C1133,classified_json,Lapsing / Dormant,billing,NORMAL,support_queue,183
+T0154,C0566,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0155,C0640,classified_json,Premium High-Spenders,billing,HIGH,premium_desk,183
+T0156,C0234,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0157,C0859,classified_json,Active Regulars,technical,NORMAL,support_queue,175
+T0158,C1146,classified_json,Lapsing / Dormant,billing,NORMAL,support_queue,183
+T0159,C0926,classified_json,Premium High-Spenders,billing,HIGH,premium_desk,183
+T0160,C0937,classified_json,Active Regulars,delivery,NORMAL,support_queue,179
+T0161,C0593,classified_json,Premium High-Spenders,billing,HIGH,premium_desk,183
+T0162,C1104,classified_json,Premium High-Spenders,technical,HIGH,premium_desk,175
+T0163,C0150,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178
+T0164,C1122,classified_json,Premium High-Spenders,fraud,HIGH,security_team,178

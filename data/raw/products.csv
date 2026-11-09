@@ -1,0 +1,41 @@
+product_id,product_name,category,price_inr
+P001,Item0,Grocery,295
+P002,Item1,Dairy,1185
+P003,Item2,Snacks,149
+P004,Item3,Personal Care,542
+P005,Item4,Electronics,261
+P006,Item5,Grocery,1034
+P007,Item6,Dairy,940
+P008,Item7,Snacks,987
+P009,Item8,Personal Care,1354
+P010,Item9,Electronics,797
+P011,Item10,Grocery,449
+P012,Item11,Dairy,212
+P013,Item12,Snacks,1019
+P014,Item13,Personal Care,78
+P015,Item14,Electronics,818
+P016,Item15,Grocery,906
+P017,Item16,Dairy,1264
+P018,Item17,Snacks,24
+P019,Item18,Personal Care,1445
+P020,Item19,Electronics,932
+P021,Item20,Grocery,565
+P022,Item21,Dairy,1497
+P023,Item22,Snacks,488
+P024,Item23,Personal Care,1230
+P025,Item24,Electronics,229
+P026,Item25,Grocery,670
+P027,Item26,Dairy,82
+P028,Item27,Snacks,65
+P029,Item28,Personal Care,72
+P030,Item29,Electronics,1350
+P031,Item30,Grocery,1128
+P032,Item31,Dairy,38
+P033,Item32,Snacks,800
+P034,Item33,Personal Care,1425
+P035,Item34,Electronics,463
+P036,Item35,Grocery,884
+P037,Item36,Dairy,79
+P038,Item37,Snacks,1100
+P039,Item38,Personal Care,474
+P040,Item39,Electronics,916

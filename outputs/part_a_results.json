@@ -1,0 +1,29 @@
+{
+  "audit": {
+    "orders raw rows": 25576,
+    "exact duplicate rows": 227,
+    "rows with status 'pending'": 1227,
+    "distinct order_id": 24122,
+    "order_amount not convertible to a number": 224,
+    "negative delivery_minutes": 0,
+    "blank delivery_minutes": 8078,
+    "customers: blank age": 65,
+    "customers: age outside 10-100": 385,
+    "customers: distinct raw city spellings": 18,
+    "customers: distinct non-blank raw gender spellings": 4,
+    "customers: blank gender": 222
+  },
+  "cleaning_log": {
+    "customers: city spellings -> clean cities": "18 -> 6",
+    "customers: gender values mapped to male/female/unknown": "4 spellings + 222 blanks -> 3 values",
+    "customers: blank ages imputed with city median": 65,
+    "customers: ages outside 10-100 set to missing, then imputed": 385,
+    "orders: exact duplicate rows removed": 227,
+    "orders: superseded (earlier 'pending') records removed, latest order_ts kept": 1227,
+    "orders: order_amount unparseable -> recomputed from price x qty x (1-disc)": 216,
+    "orders: negative delivery_minutes set to missing": 0,
+    "orders: completed orders' missing delivery_minutes -> category median (completed)": 4307,
+    "orders: cancelled orders' delivery_minutes left missing": 2477
+  },
+  "completed_amount_sum": 21403983.1
+}

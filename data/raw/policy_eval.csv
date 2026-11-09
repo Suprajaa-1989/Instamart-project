@@ -1,0 +1,3 @@
+question,expected_doc,expected_fact
+Who must approve a refund above INR 1000?,refund_policy.txt,human lead
+Who won the cricket world cup final?,NONE,

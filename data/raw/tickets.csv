@@ -1,0 +1,165 @@
+ticket_id,customer_id,order_id,text,true_category
+T0001,C0585,,,delivery
+T0002,C0102,,,technical
+T0003,C1154,,,fraud
+T0004,C0737,,,billing
+T0005,C1084,,word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word ,delivery
+T0006,C0309,,word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word ,technical
+T0007,C1006,,word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word ,fraud
+T0008,C0891,,word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word ,billing
+T0009,C1064,,Unauthorized transaction on my card for ORD-100005,delivery
+T0010,C0824,,Unauthorized transaction on my card for ORD-100005,technical
+T0011,C1044,,Unauthorized transaction on my card for ORD-100005,fraud
+T0012,C0513,,Unauthorized transaction on my card for ORD-100005,billing
+T0013,C0570,,I was charged twice for order ORD-100005. email me at a@b.com,delivery
+T0014,C0598,,The app crashes on login,technical
+T0015,C0963,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0016,C0552,,"My order ORD-100005 has not arrived, call 9876543210",billing
+T0017,C0636,,The app crashes on login,delivery
+T0018,C0813,,I was charged twice for order ORD-100005. email me at a@b.com,technical
+T0019,C0286,,The app crashes on login,fraud
+T0020,C0211,,I was charged twice for order ORD-100005. email me at a@b.com,billing
+T0021,C0668,,I was charged twice for order ORD-100005. email me at a@b.com,delivery
+T0022,C0815,,Unauthorized transaction on my card for ORD-100005,technical
+T0023,C0910,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0024,C0964,,The app crashes on login,billing
+T0025,C0271,,"My order ORD-100005 has not arrived, call 9876543210",delivery
+T0026,C0681,,"My order ORD-100005 has not arrived, call 9876543210",technical
+T0027,C1128,,The app crashes on login,fraud
+T0028,C0664,,"My order ORD-100005 has not arrived, call 9876543210",billing
+T0029,C0562,,Unauthorized transaction on my card for ORD-100005,delivery
+T0030,C0892,,"My order ORD-100005 has not arrived, call 9876543210",technical
+T0031,C0415,,Unauthorized transaction on my card for ORD-100005,fraud
+T0032,C0054,,The app crashes on login,billing
+T0033,C0133,,"My order ORD-100005 has not arrived, call 9876543210",delivery
+T0034,C0761,,"My order ORD-100005 has not arrived, call 9876543210",technical
+T0035,C0820,,The app crashes on login,fraud
+T0036,C0111,,Unauthorized transaction on my card for ORD-100005,billing
+T0037,C1175,,Unauthorized transaction on my card for ORD-100005,delivery
+T0038,C0853,,The app crashes on login,technical
+T0039,C0789,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0040,C0283,,I was charged twice for order ORD-100005. email me at a@b.com,billing
+T0041,C0442,,"My order ORD-100005 has not arrived, call 9876543210",delivery
+T0042,C0494,,The app crashes on login,technical
+T0043,C0633,,Unauthorized transaction on my card for ORD-100005,fraud
+T0044,C0502,,"My order ORD-100005 has not arrived, call 9876543210",billing
+T0045,C0046,,The app crashes on login,delivery
+T0046,C0812,,Unauthorized transaction on my card for ORD-100005,technical
+T0047,C0524,,Unauthorized transaction on my card for ORD-100005,fraud
+T0048,C0334,,Unauthorized transaction on my card for ORD-100005,billing
+T0049,C0842,,I was charged twice for order ORD-100005. email me at a@b.com,delivery
+T0050,C1081,,Unauthorized transaction on my card for ORD-100005,technical
+T0051,C0920,,The app crashes on login,fraud
+T0052,C0242,,Unauthorized transaction on my card for ORD-100005,billing
+T0053,C1051,,I was charged twice for order ORD-100005. email me at a@b.com,delivery
+T0054,C0326,,The app crashes on login,technical
+T0055,C0194,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0056,C0576,,The app crashes on login,billing
+T0057,C0445,,"My order ORD-100005 has not arrived, call 9876543210",delivery
+T0058,C0031,,The app crashes on login,technical
+T0059,C0780,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0060,C1054,,Unauthorized transaction on my card for ORD-100005,billing
+T0061,C0178,,Unauthorized transaction on my card for ORD-100005,delivery
+T0062,C0797,,"My order ORD-100005 has not arrived, call 9876543210",technical
+T0063,C0632,,Unauthorized transaction on my card for ORD-100005,fraud
+T0064,C0571,,I was charged twice for order ORD-100005. email me at a@b.com,billing
+T0065,C0084,,The app crashes on login,delivery
+T0066,C0679,,The app crashes on login,technical
+T0067,C0029,,Unauthorized transaction on my card for ORD-100005,fraud
+T0068,C0435,,Unauthorized transaction on my card for ORD-100005,billing
+T0069,C0172,,"My order ORD-100005 has not arrived, call 9876543210",delivery
+T0070,C1041,,"My order ORD-100005 has not arrived, call 9876543210",technical
+T0071,C0716,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0072,C1149,,I was charged twice for order ORD-100005. email me at a@b.com,billing
+T0073,C0765,,"My order ORD-100005 has not arrived, call 9876543210",delivery
+T0074,C0917,,I was charged twice for order ORD-100005. email me at a@b.com,technical
+T0075,C0388,,"My order ORD-100005 has not arrived, call 9876543210",fraud
+T0076,C0340,,"My order ORD-100005 has not arrived, call 9876543210",billing
+T0077,C0401,,Unauthorized transaction on my card for ORD-100005,delivery
+T0078,C0915,,The app crashes on login,technical
+T0079,C1056,,Unauthorized transaction on my card for ORD-100005,fraud
+T0080,C0959,,I was charged twice for order ORD-100005. email me at a@b.com,billing
+T0081,C0870,,I was charged twice for order ORD-100005. email me at a@b.com,delivery
+T0082,C1090,,The app crashes on login,technical
+T0083,C0190,,The app crashes on login,fraud
+T0084,C0557,,The app crashes on login,billing
+T0085,C0172,,Unauthorized transaction on my card for ORD-100005,delivery
+T0086,C0385,,The app crashes on login,technical
+T0087,C0526,,The app crashes on login,fraud
+T0088,C0761,,I was charged twice for order ORD-100005. email me at a@b.com,billing
+T0089,C0126,,The app crashes on login,delivery
+T0090,C0453,,Unauthorized transaction on my card for ORD-100005,technical
+T0091,C1031,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0092,C0496,,The app crashes on login,billing
+T0093,C0530,,The app crashes on login,delivery
+T0094,C0079,,The app crashes on login,technical
+T0095,C0879,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0096,C0516,,"My order ORD-100005 has not arrived, call 9876543210",billing
+T0097,C0144,,I was charged twice for order ORD-100005. email me at a@b.com,delivery
+T0098,C0969,,Unauthorized transaction on my card for ORD-100005,technical
+T0099,C0293,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0100,C0181,,Unauthorized transaction on my card for ORD-100005,billing
+T0101,C0407,,Unauthorized transaction on my card for ORD-100005,delivery
+T0102,C0970,,The app crashes on login,technical
+T0103,C0061,,Unauthorized transaction on my card for ORD-100005,fraud
+T0104,C0335,,The app crashes on login,billing
+T0105,C1134,,The app crashes on login,delivery
+T0106,C0656,,I was charged twice for order ORD-100005. email me at a@b.com,technical
+T0107,C0164,,The app crashes on login,fraud
+T0108,C1198,,The app crashes on login,billing
+T0109,C0325,,The app crashes on login,delivery
+T0110,C0732,,The app crashes on login,technical
+T0111,C0009,,Unauthorized transaction on my card for ORD-100005,fraud
+T0112,C0608,,I was charged twice for order ORD-100005. email me at a@b.com,billing
+T0113,C0950,,The app crashes on login,delivery
+T0114,C0502,,"My order ORD-100005 has not arrived, call 9876543210",technical
+T0115,C1158,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0116,C0963,,"My order ORD-100005 has not arrived, call 9876543210",billing
+T0117,C0444,,The app crashes on login,delivery
+T0118,C0610,,I was charged twice for order ORD-100005. email me at a@b.com,technical
+T0119,C0657,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0120,C0144,,Unauthorized transaction on my card for ORD-100005,billing
+T0121,C0811,,Unauthorized transaction on my card for ORD-100005,delivery
+T0122,C0232,,"My order ORD-100005 has not arrived, call 9876543210",technical
+T0123,C0165,,Unauthorized transaction on my card for ORD-100005,fraud
+T0124,C0362,,Unauthorized transaction on my card for ORD-100005,billing
+T0125,C1139,,Unauthorized transaction on my card for ORD-100005,delivery
+T0126,C0560,,"My order ORD-100005 has not arrived, call 9876543210",technical
+T0127,C0669,,The app crashes on login,fraud
+T0128,C0298,,Unauthorized transaction on my card for ORD-100005,billing
+T0129,C0101,,I was charged twice for order ORD-100005. email me at a@b.com,delivery
+T0130,C0083,,Unauthorized transaction on my card for ORD-100005,technical
+T0131,C0455,,"My order ORD-100005 has not arrived, call 9876543210",fraud
+T0132,C0777,,Unauthorized transaction on my card for ORD-100005,billing
+T0133,C1113,,The app crashes on login,delivery
+T0134,C1125,,I was charged twice for order ORD-100005. email me at a@b.com,technical
+T0135,C0278,,"My order ORD-100005 has not arrived, call 9876543210",fraud
+T0136,C1192,,Unauthorized transaction on my card for ORD-100005,billing
+T0137,C0360,,"My order ORD-100005 has not arrived, call 9876543210",delivery
+T0138,C0423,,The app crashes on login,technical
+T0139,C0153,,"My order ORD-100005 has not arrived, call 9876543210",fraud
+T0140,C0715,,Unauthorized transaction on my card for ORD-100005,billing
+T0141,C0352,,The app crashes on login,delivery
+T0142,C0875,,The app crashes on login,technical
+T0143,C0708,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0144,C0936,,"My order ORD-100005 has not arrived, call 9876543210",billing
+T0145,C0428,,I was charged twice for order ORD-100005. email me at a@b.com,delivery
+T0146,C1093,,Unauthorized transaction on my card for ORD-100005,technical
+T0147,C0578,,"My order ORD-100005 has not arrived, call 9876543210",fraud
+T0148,C1087,,"My order ORD-100005 has not arrived, call 9876543210",billing
+T0149,C0616,,"My order ORD-100005 has not arrived, call 9876543210",delivery
+T0150,C0519,,The app crashes on login,technical
+T0151,C0491,,The app crashes on login,fraud
+T0152,C0244,,Unauthorized transaction on my card for ORD-100005,billing
+T0153,C1133,,I was charged twice for order ORD-100005. email me at a@b.com,delivery
+T0154,C0566,,"My order ORD-100005 has not arrived, call 9876543210",technical
+T0155,C0640,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0156,C0234,,Unauthorized transaction on my card for ORD-100005,billing
+T0157,C0859,,The app crashes on login,delivery
+T0158,C1146,,I was charged twice for order ORD-100005. email me at a@b.com,technical
+T0159,C0926,,I was charged twice for order ORD-100005. email me at a@b.com,fraud
+T0160,C0937,,"My order ORD-100005 has not arrived, call 9876543210",billing
+T0161,C0593,,I was charged twice for order ORD-100005. email me at a@b.com,delivery
+T0162,C1104,,The app crashes on login,technical
+T0163,C0150,,Unauthorized transaction on my card for ORD-100005,fraud
+T0164,C1122,,Unauthorized transaction on my card for ORD-100005,billing
